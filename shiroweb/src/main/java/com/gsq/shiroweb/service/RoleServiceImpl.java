@@ -1,7 +1,7 @@
-package com.souche.shiroweb.service;
+package com.gsq.shiroweb.service;
 
-import com.souche.shiroweb.dao.RoleDao;
-import com.souche.shiroweb.entity.Role;
+import com.gsq.shiroweb.dao.RoleDao;
+import com.gsq.shiroweb.entity.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

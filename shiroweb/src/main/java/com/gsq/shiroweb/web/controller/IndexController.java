@@ -1,10 +1,10 @@
-package com.souche.shiroweb.web.controller;
+package com.gsq.shiroweb.web.controller;
 
-import com.souche.shiroweb.entity.Resource;
-import com.souche.shiroweb.entity.User;
-import com.souche.shiroweb.service.ResourceService;
-import com.souche.shiroweb.service.UserService;
-import com.souche.shiroweb.web.bind.annotation.CurrentUser;
+import com.gsq.shiroweb.entity.Resource;
+import com.gsq.shiroweb.service.UserService;
+import com.gsq.shiroweb.web.bind.annotation.CurrentUser;
+import com.gsq.shiroweb.entity.User;
+import com.gsq.shiroweb.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

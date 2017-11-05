@@ -1,6 +1,6 @@
-package com.souche.shiroweb.web.bind.method;
+package com.gsq.shiroweb.web.bind.method;
 
-import com.souche.shiroweb.web.bind.annotation.CurrentUser;
+import com.gsq.shiroweb.web.bind.annotation.CurrentUser;
 import org.springframework.core.MethodParameter;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;

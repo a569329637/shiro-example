@@ -1,6 +1,6 @@
-package com.souche.shiroweb.service;
+package com.gsq.shiroweb.service;
 
-import com.souche.shiroweb.entity.Role;
+import com.gsq.shiroweb.entity.Role;
 
 import java.util.List;
 import java.util.Set;

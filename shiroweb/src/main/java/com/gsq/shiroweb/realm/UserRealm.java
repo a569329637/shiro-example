@@ -1,7 +1,7 @@
-package com.souche.shiroweb.realm;
+package com.gsq.shiroweb.realm;
 
-import com.souche.shiroweb.entity.User;
-import com.souche.shiroweb.service.UserService;
+import com.gsq.shiroweb.service.UserService;
+import com.gsq.shiroweb.entity.User;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
@@ -30,7 +30,6 @@ public class UserRealm extends AuthorizingRealm {
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
-
         String username = (String)token.getPrincipal();
 
         User user = userService.findByUsername(username);

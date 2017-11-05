@@ -1,4 +1,4 @@
-package com.souche.shiroweb.entity;
+package com.gsq.shiroweb.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,6 +7,7 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @AllArgsConstructor
@@ -18,6 +19,13 @@ public class Role implements Serializable {
     private String description; //角色描述,UI界面显示使用
     private List<Long> resourceIds; //拥有的资源
     private Boolean available = Boolean.FALSE; //是否可用,如果不可用将不会添加给用户
+
+    public List<Long> getResourceIds() {
+        if (resourceIds == null) {
+            resourceIds = new ArrayList<>();
+        }
+        return resourceIds;
+    }
 
     public String getResourceIdsStr() {
         if(CollectionUtils.isEmpty(resourceIds)) {

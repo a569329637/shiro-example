@@ -1,4 +1,4 @@
-package com.souche.shiroweb.entity;
+package com.gsq.shiroweb.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,7 +28,7 @@ public class User implements Serializable {
 
     public List<Long> getRoleIds() {
         if (roleIds == null) {
-            return new ArrayList<>();
+            roleIds= new ArrayList<>();
         }
         return roleIds;
     }
@@ -46,6 +46,7 @@ public class User implements Serializable {
     }
 
     public void setRoleIdsStr(String roleIdsStr) {
+        System.out.println("roleIdsStr = " + roleIdsStr);
         if(StringUtils.isEmpty(roleIdsStr)) {
             return;
         }
@@ -55,6 +56,7 @@ public class User implements Serializable {
                 continue;
             }
             getRoleIds().add(Long.valueOf(roleIdStr));
+            System.out.println("roleIds = " + roleIds);
         }
     }
 }

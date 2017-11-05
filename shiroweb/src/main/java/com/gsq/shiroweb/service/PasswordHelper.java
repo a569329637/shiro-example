@@ -1,6 +1,6 @@
-package com.souche.shiroweb.service;
+package com.gsq.shiroweb.service;
 
-import com.souche.shiroweb.entity.User;
+import com.gsq.shiroweb.entity.User;
 import org.apache.shiro.crypto.RandomNumberGenerator;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;

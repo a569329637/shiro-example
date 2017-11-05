@@ -1,4 +1,4 @@
-package com.souche.shiroweb.constants;
+package com.gsq.shiroweb.constants;
 
 /**
  * Created by Administrator on 2017/10/21.

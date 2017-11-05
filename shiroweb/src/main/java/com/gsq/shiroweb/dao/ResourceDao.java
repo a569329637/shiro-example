@@ -1,6 +1,6 @@
-package com.souche.shiroweb.dao;
+package com.gsq.shiroweb.dao;
 
-import com.souche.shiroweb.entity.Resource;
+import com.gsq.shiroweb.entity.Resource;
 
 import java.util.List;
 

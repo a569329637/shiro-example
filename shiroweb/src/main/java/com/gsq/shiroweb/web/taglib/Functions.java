@@ -1,12 +1,12 @@
-package com.souche.shiroweb.web.taglib;
+package com.gsq.shiroweb.web.taglib;
 
-import com.souche.shiroweb.entity.Organization;
-import com.souche.shiroweb.entity.Resource;
-import com.souche.shiroweb.entity.Role;
-import com.souche.shiroweb.service.OrganizationService;
-import com.souche.shiroweb.service.ResourceService;
-import com.souche.shiroweb.service.RoleService;
-import com.souche.shiroweb.spring.SpringUtils;
+import com.gsq.shiroweb.entity.Resource;
+import com.gsq.shiroweb.entity.Role;
+import com.gsq.shiroweb.service.OrganizationService;
+import com.gsq.shiroweb.spring.SpringUtils;
+import com.gsq.shiroweb.entity.Organization;
+import com.gsq.shiroweb.service.ResourceService;
+import com.gsq.shiroweb.service.RoleService;
 import org.springframework.util.CollectionUtils;
 
 import java.util.Collection;

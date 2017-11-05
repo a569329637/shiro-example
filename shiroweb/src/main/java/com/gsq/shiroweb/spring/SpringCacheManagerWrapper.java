@@ -1,4 +1,4 @@
-package com.souche.shiroweb.spring;
+package com.gsq.shiroweb.spring;
 
 import net.sf.ehcache.Ehcache;
 import org.apache.shiro.cache.Cache;

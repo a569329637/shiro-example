@@ -1,7 +1,7 @@
-package com.souche.shiroweb.service;
+package com.gsq.shiroweb.service;
 
-import com.souche.shiroweb.dao.OrganizationDao;
-import com.souche.shiroweb.entity.Organization;
+import com.gsq.shiroweb.dao.OrganizationDao;
+import com.gsq.shiroweb.entity.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

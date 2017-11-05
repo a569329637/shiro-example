@@ -1,4 +1,4 @@
-package com.souche.shiroweb.entity;
+package com.gsq.shiroweb.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

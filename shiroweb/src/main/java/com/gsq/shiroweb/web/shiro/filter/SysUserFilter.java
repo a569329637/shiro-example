@@ -1,7 +1,7 @@
-package com.souche.shiroweb.web.shiro.filter;
+package com.gsq.shiroweb.web.shiro.filter;
 
-import com.souche.shiroweb.constants.Constants;
-import com.souche.shiroweb.service.UserService;
+import com.gsq.shiroweb.service.UserService;
+import com.gsq.shiroweb.constants.Constants;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.web.filter.PathMatchingFilter;
 import org.springframework.beans.factory.annotation.Autowired;

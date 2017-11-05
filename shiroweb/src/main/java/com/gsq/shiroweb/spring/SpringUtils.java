@@ -1,4 +1,4 @@
-package com.souche.shiroweb.spring;
+package com.gsq.shiroweb.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

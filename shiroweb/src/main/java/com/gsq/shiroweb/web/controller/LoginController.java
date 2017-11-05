@@ -1,4 +1,4 @@
-package com.souche.shiroweb.web.controller;
+package com.gsq.shiroweb.web.controller;
 
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;

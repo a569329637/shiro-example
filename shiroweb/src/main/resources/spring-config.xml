@@ -13,7 +13,7 @@
     <context:property-placeholder location="classpath:resources.properties"/>
 
     <!-- 扫描注解Bean -->
-    <context:component-scan base-package="com.souche.shiroweb.dao,com.souche.shiroweb.service">
+    <context:component-scan base-package="com.gsq.shiroweb.dao,com.gsq.shiroweb.service">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
@@ -78,11 +78,11 @@
 
     <aop:config expose-proxy="true" proxy-target-class="true">
         <!-- 只对业务逻辑层实施事务 -->
-        <aop:pointcut id="txPointcut" expression="execution(* com.souche.shiroweb.service..*+.*(..))"/>
+        <aop:pointcut id="txPointcut" expression="execution(* com.gsq.shiroweb.service..*+.*(..))"/>
         <aop:advisor id="txAdvisor" advice-ref="txAdvice" pointcut-ref="txPointcut"/>
     </aop:config>
 
-    <bean class="com.souche.shiroweb.spring.SpringUtils"/>
+    <bean class="com.gsq.shiroweb.spring.SpringUtils"/>
 
     <import resource="classpath:spring-config-cache.xml"/>
     <import resource="classpath:spring-config-shiro.xml"/>

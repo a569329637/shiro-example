@@ -1,7 +1,7 @@
-package com.souche.shiroweb.service;
+package com.gsq.shiroweb.service;
 
-import com.souche.shiroweb.dao.ResourceDao;
-import com.souche.shiroweb.entity.Resource;
+import com.gsq.shiroweb.entity.Resource;
+import com.gsq.shiroweb.dao.ResourceDao;
 import org.apache.shiro.authz.permission.WildcardPermission;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

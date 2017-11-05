@@ -1,4 +1,4 @@
-package com.souche.shiroweb.credentials;
+package com.gsq.shiroweb.credentials;
 
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;

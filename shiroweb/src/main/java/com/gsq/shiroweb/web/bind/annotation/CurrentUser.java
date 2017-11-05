@@ -1,6 +1,6 @@
-package com.souche.shiroweb.web.bind.annotation;
+package com.gsq.shiroweb.web.bind.annotation;
 
-import com.souche.shiroweb.constants.Constants;
+import com.gsq.shiroweb.constants.Constants;
 
 import java.lang.annotation.*;
 
