@@ -2,6 +2,7 @@
 .git
 target
 shiro-example.iml
+shiro.iml
 
 shiroweb/target
 shiroweb/shiro-web.iml
